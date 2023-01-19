@@ -1,0 +1,31 @@
+<%- include('./partials/header.ejs') %>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-sm-6">
+                <h2 class="alert alert-success text-center">User Registration</h2>
+                <div class="form">
+                    <form method="post" action="/user">
+                          <div class="mb-3">
+                            <label for="disabledTextInput" class="form-label">Name</label>
+                            <input type="text" id="disabledTextInput" name="name" class="form-control" placeholder="Enter Name" >
+                          </div>
+                          <div class="mb-3">
+                            <label for="disabledTextInput" class="form-label">Email Id</label>
+                            <input type="email" id="disabledTextInput" name="email" class="form-control" placeholder="Enter Email id" >
+                          </div>
+                          <div class="mb-3">
+                            <label for="disabledTextInput" class="form-label">Password</label>
+                            <input type="password" id="disabledTextInput" name="password" class="form-control" placeholder="Enter Password" >
+                          </div>
+                          
+                          <button type="submit" class="btn btn-success">Submit</button>
+
+      
+                        
+                      </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <%- include('./partials/footer.ejs') %>

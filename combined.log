@@ -1,0 +1,6 @@
+{"level":"info","message":{"IsAdmin":true,"__v":0,"_id":"63c6353f03d693cb8a86dc07","email":"9@gfg","name":"Hitesh","password":"$2b$10$4MX57Q5aztiZP/YwGlnLXunAdueWrPkVG5TmaLcsx.hI7XwTmMG8i"}}
+{"level":"info","message":[{"_id":"63c0011fb9b3ceff697f725a","age":20,"fees":4532.6,"name":"Hitesh"},{"__v":0,"_id":"63c0f9ff81a7bbf4eadc6c7e","age":32,"fees":3434,"name":"dsfw"},{"__v":0,"_id":"63c4df3a4f7990d135fd6710","age":345,"fees":3422,"name":"raj"}]}
+
+{"level":"info","message":"info"}
+{"level":"warn","message":"warn"}
+{"level":"debug","message":"debug"}
